@@ -1,1 +1,1 @@
-web: Run --env=production --workdir=./ --config:servers.default.port=$PORT
+web: Run --env production --hostname 0.0.0.0 --port $PORT
